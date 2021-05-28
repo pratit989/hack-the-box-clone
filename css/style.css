@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-items: center;
+}
+
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+
+.navbar-scrolled {
+    background: #292e33;
+}
+
+.navbar-default {
+    border: none;
+    background: transparent;
+    transition: .4s;
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+@media (min-width: 768px) {
+    .navbar-fixed-bottom, .navbar-fixed-top {
+        border-radius: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 4px;
+    }
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0,0,0.7) url('../img/AnonFire.jpg');
+    background-size: cover;
+    
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', TanHona, Geneva, Verdana, Tahoma, sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.box-main img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size:50px;
+}
+
+.text-small{
+    font-size: 18px;
+}
+
+.bin{
+    padding:8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+ThirdSection-background{
+    background: rgba(0,0,0.7) url('../img/AnonFire.jpg');
+    background-size: cover;
+
+}
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.Section-Left{
+    align-items: center;
+}
+
+.pharas{
+    padding:0px 65px;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI' Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tumbnail img{
+    width: 250px;
+}
+
